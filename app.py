@@ -12,6 +12,10 @@ from keras.callbacks import EarlyStopping
 import pandas_ta as ta
 import joblib
 
+# Fix for the NaN import error
+# Ensure np.nan is used instead of NaN from numpy
+from numpy import nan as npNaN
+
 # Function to create dataset
 def create_dataset(data, sequence_length):
     X, y = [], []
