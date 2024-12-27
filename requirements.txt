@@ -6,5 +6,5 @@ matplotlib
 scikit-learn
 keras
 tensorflow
-ta-lib
+pandas_ta
 joblib
