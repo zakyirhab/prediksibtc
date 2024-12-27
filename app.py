@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolu
 from keras.models import Sequential, load_model
 from keras.layers import LSTM, Dense, Dropout
 from keras.callbacks import EarlyStopping
-import talib as ta
+import pandas_ta as ta
 import joblib
 
 # Function to create dataset
