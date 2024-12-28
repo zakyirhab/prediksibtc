@@ -1,7 +1,7 @@
 streamlit==1.41.1
 yfinance==0.2.50
 pandas==2.2.2
-numpy==1.26.4
+numpy==1.24.3  # Kompatibel dengan TensorFlow 2.13.0
 matplotlib==3.8.0
 scikit-learn==1.6.0
 keras==3.5.0
