@@ -6,5 +6,5 @@ matplotlib==3.8.0
 scikit-learn==1.6.0
 keras==3.5.0
 joblib==1.4.2
-# Install TA-Lib from GitHub folder
-git+https://github.com/zakyirhab/prediksibtc.git#egg=TA-Lib&subdirectory=ta-lib
+# Install TA-Lib wheel
+https://github.com/zakyirhab/prediksibtc/raw/main/TA_Lib-0.4.28-cp312-cp312-win_amd64.whl
